@@ -1,1 +1,0 @@
-import"./tailwindcss-BhcMIiBe.js";const t=()=>{const e=document.getElementById("login-form");e&&e.addEventListener("submit",n=>{n.preventDefault(),window.location.href="/museo-web/index-admin.html"})};document.readyState==="loading"?document.addEventListener("DOMContentLoaded",t):t();

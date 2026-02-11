@@ -1,0 +1,22 @@
+{
+  "name": "tiago-museum",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "publish": "gh-pages -d dist",
+    "b-and-p": "npm run build && npm run publish"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.1.18"
+  }
+}

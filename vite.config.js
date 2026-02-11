@@ -13,7 +13,7 @@ const newsFile = path.resolve(__dirname, 'public/data/n.json');
 export default defineConfig(({ mode }) => {
   return {
     // GitHub Pages (project site) sirve bajo /<repo>/
-    base: mode === 'production' ? '/tiago-museum/' : '/',
+    base: mode === 'production' ? '/museo-web/' : '/',
     plugins: [tailwindcss()],
     build: {
       rollupOptions: {
@@ -224,7 +224,7 @@ async function writeReservations(reservations) {
   await fs.writeFile(
     reservationsFile,
     JSON.stringify(reservations, null, 2),
-    'utf-8'
+    'utf-8',
   );
 }
 

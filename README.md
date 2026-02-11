@@ -4,7 +4,7 @@ Sitio web del **Museo Torres Céspedes** con una versión pública y un panel **
 
 El proyecto está preparado para **GitHub Pages (project site)**, incluyendo:
 
-https://salchavan.github.io/tiago-museum/index.html
+https://thiago-web47.github.io/museo-web/
 
 - Build multi-page (incluye `index.html`, `index-admin.html`, `login.html`).
 - Tailwind bundleado por Vite (sin links directos a CSS dentro de `/src`).
@@ -49,23 +49,18 @@ Importante:
 Requisitos: Node.js + npm.
 
 - Instalar dependencias:
-
   - `npm install`
 
 - Desarrollo (servidor local):
-
   - `npm run dev`
 
 - Build (genera `dist/`):
-
   - `npm run build`
 
 - Preview del build:
-
   - `npm run preview`
 
 - Publicar en GitHub Pages (sube `dist/`):
-
   - `npm run publish`
 
 - Build + Publish:

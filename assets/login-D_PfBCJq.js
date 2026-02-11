@@ -1,1 +1,0 @@
-import"./tailwindcss-cfvDj2qp.js";const t=()=>{const e=document.getElementById("login-form");e&&e.addEventListener("submit",n=>{n.preventDefault(),window.location.href="/tiago-museum/index-admin.html"})};document.readyState==="loading"?document.addEventListener("DOMContentLoaded",t):t();
